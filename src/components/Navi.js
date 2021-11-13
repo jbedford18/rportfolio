@@ -1,11 +1,10 @@
 import React from 'react';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 function Navi() {
 
   return (
-  <Container>
+  
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand href="#home">Justin Bedford</Navbar.Brand>
@@ -24,7 +23,7 @@ function Navi() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-</Container>
+
   );
 }
 
