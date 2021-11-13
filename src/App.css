@@ -40,3 +40,22 @@
 .about-sect{
   color:aliceblue
 }
+
+.homepg {
+  color:antiquewhite;
+  font-family:fantasy 
+}
+
+.title{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  color: darkslategrey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
