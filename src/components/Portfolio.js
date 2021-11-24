@@ -1,17 +1,13 @@
 import React from 'react';
-
+import Carousel from './Carousel'
 
 function Portfolio () {
-  return (
-    <section className="homepg">
-      <h1 id="hme">JUSTIN B.</h1>
-      <div className="title">
-        <p>
-          R E A C T - P O R T F O L I O
-        </p>
-      </div>
-    </section>
-  );
+  return(
+  <section id="portfolio">
+      <h1 className="text-center">P O R T F O R L I O </h1>
+      < Carousel />
+  </section>
+  )
 }
 
 export default Portfolio;

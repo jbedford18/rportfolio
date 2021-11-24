@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <>
-    <section id='home' className="homepg">
+    <section id='' className="homepg">
       <h1 id="home">JUSTIN B.</h1>
       <div className="title">
         <p>
