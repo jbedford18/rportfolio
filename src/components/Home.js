@@ -1,16 +1,19 @@
 import React from 'react';
 
 
-function Home() {
+const Home = () => {
+
   return (
-    <section className="homepg">
-      <h1 id="hme">JUSTIN B.</h1>
+    <>
+    <section id='home' className="homepg">
+      <h1 id="home">JUSTIN B.</h1>
       <div className="title">
         <p>
           R E A C T - P O R T F O L I O
         </p>
       </div>
     </section>
+    </>
   );
 }
 
